@@ -37,20 +37,20 @@ class TTextTheme {
     headlineMedium: TextStyle().copyWith(
         fontSize: 24, fontWeight: FontWeight.w600, color: Colors.white),
     titleLarge: TextStyle().copyWith(
-        fontSize: 16, fontWeight: FontWeight.w600, color: Colors.black),
+        fontSize: 16, fontWeight: FontWeight.w600, color: Colors.white),
     titleMedium: TextStyle().copyWith(
-        fontSize: 16, fontWeight: FontWeight.w500, color: Colors.black),
+        fontSize: 16, fontWeight: FontWeight.w500, color: Colors.white),
     titleSmall: TextStyle().copyWith(
-        fontSize: 16, fontWeight: FontWeight.w400, color: Colors.black),
+        fontSize: 16, fontWeight: FontWeight.w400, color: Colors.white),
     bodyLarge: TextStyle().copyWith(
-        fontSize: 14, fontWeight: FontWeight.w500, color: Colors.black),
+        fontSize: 14, fontWeight: FontWeight.w500, color: Colors.white),
     bodyMedium: TextStyle().copyWith(
-        fontSize: 14, fontWeight: FontWeight.normal, color: Colors.black),
+        fontSize: 14, fontWeight: FontWeight.normal, color: Colors.white),
     bodySmall: TextStyle().copyWith(
-        fontSize: 14, fontWeight: FontWeight.w500, color: Colors.black),
+        fontSize: 14, fontWeight: FontWeight.w500, color: Colors.white),
     labelLarge: TextStyle().copyWith(
-        fontSize: 12, fontWeight: FontWeight.normal, color: Colors.black),
+        fontSize: 12, fontWeight: FontWeight.normal, color: Colors.white),
     labelMedium: TextStyle().copyWith(
-        fontSize: 12, fontWeight: FontWeight.normal, color: Colors.black),
+        fontSize: 12, fontWeight: FontWeight.normal, color: Colors.white),
   );
 }

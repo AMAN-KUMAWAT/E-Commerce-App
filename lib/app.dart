@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:project/features/authentication/screens/onboarding/onboarding.dart';
 import 'package:project/utils/theme/theme.dart';
 
 class App extends StatelessWidget {
@@ -6,24 +8,12 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
-      home: Drive(),
-    );
-  }
-}
-
-class Drive extends StatelessWidget {
-  const Drive({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("hello"),
-      ),
+      home: OnboardingScreen(),
     );
   }
 }

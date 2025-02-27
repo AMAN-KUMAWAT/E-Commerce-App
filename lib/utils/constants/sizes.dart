@@ -48,7 +48,7 @@ class TSizes {
 
   //input field
   static const double inputFieldRadius = 12.0;
-  static const double spaceBtwInputRadius = 16.0;
+  static const double spaceBtwInputField = 16.0;
 
   //car sizes
   static const double cardRadiusLg = 16.0;

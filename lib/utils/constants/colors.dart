@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class TColors {
   TColors._();
-
+  static const Color bottomNavigation = Color.fromARGB(255, 150, 141, 141);
   //App bAsic colors
   static const Color primary = Color(0xFF4b68ff);
   static const Color secondary = Color(0xFFFFE248);
