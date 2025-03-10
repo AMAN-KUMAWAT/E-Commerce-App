@@ -22,6 +22,7 @@ class LoginForm extends StatelessWidget {
         padding: const EdgeInsets.symmetric(vertical: TSizes.spaceBtwSections),
         child: Column(
           children: [
+            ///user name
             TextFormField(
               decoration: InputDecoration(
                   prefixIcon: Icon(
@@ -32,6 +33,8 @@ class LoginForm extends StatelessWidget {
             SizedBox(
               height: TSizes.spaceBtwInputField,
             ),
+
+            ///password
             TextFormField(
               obscureText: true,
               decoration: InputDecoration(
