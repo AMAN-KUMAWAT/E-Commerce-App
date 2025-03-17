@@ -23,45 +23,49 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           children: [
             HomeContainerHeader(
-                child: Column(
-              children: [
-                /// appbar
-                THomeAppBAr(),
-                SizedBox(
-                  height: TSizes.spaceBtwSections,
-                ),
-
-                /// search bar
-                SearchContainer(
-                  text: 'Search in Store',
-                  icon: Iconsax.search_normal,
-                  onTap: () {},
-                ),
-                SizedBox(
-                  height: TSizes.spaceBtwSections,
-                ),
-
-                /// heading
-                Padding(
-                  padding: EdgeInsets.only(left: TSizes.defaltSpace),
-                  child: Column(
-                    children: [
-                      TSectionHeading(
-                        title: 'Popular Categories',
-                        showActionButton: false,
-                        textColor: TColors.white,
-                      ),
-                    ],
+              child: Column(
+                children: [
+                  /// appbar
+                  THomeAppBAr(),
+                  SizedBox(
+                    height: TSizes.spaceBtwSections,
                   ),
-                ),
-                SizedBox(
-                  height: TSizes.spaceBtwSections,
-                ),
 
-                ///categories
-                THomeCategories()
-              ],
-            )),
+                  /// search bar
+                  SearchContainer(
+                    text: 'Search in Store',
+                    icon: Iconsax.search_normal,
+                    onTap: () {},
+                  ),
+                  SizedBox(
+                    height: TSizes.spaceBtwSections,
+                  ),
+
+                  /// heading
+                  Padding(
+                    padding: EdgeInsets.only(left: TSizes.defaltSpace),
+                    child: Column(
+                      children: [
+                        TSectionHeading(
+                          title: 'Popular Categories',
+                          showActionButton: false,
+                          textColor: TColors.white,
+                        ),
+                        SizedBox(
+                          height: TSizes.spaceBtwItems,
+                        ),
+
+                        ///categories
+                        THomeCategories(),
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: TSizes.spaceBtwSections,
+                  ),
+                ],
+              ),
+            ),
 
             ///body withwhite sheet
             Padding(

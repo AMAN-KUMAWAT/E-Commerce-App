@@ -37,4 +37,5 @@ class TImages {
   static const String sale = "assets/images/banners/sale.jpg";
   static const sneakers = "assets/images/banners/sneakers.jpg";
   static const jacket = "assets/images/blazer.gif";
+  static const user = "assets/images/iron.jpg";
 }
